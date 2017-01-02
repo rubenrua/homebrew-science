@@ -18,12 +18,6 @@ class Octave < Formula
       url "http://savannah.gnu.org/bugs/download.php?file_id=32255"
       sha256 "ef83b32384a37cca13ecdd30d98dacac314b7c23f2c1df3d1113074bd1169c0f"
     end
-    # Fixes includes "base-list.h" and "config.h" in comment-list.h and "oct.h" (bug #41027)
-    # Core developers don't like this fix, see: http://savannah.gnu.org/bugs/?41027
-    patch do
-      url "http://savannah.gnu.org/bugs/download.php?file_id=31400"
-      sha256 "efdf91390210a64e4732da15dcac576fb1fade7b85f9bacf4010d102c1974729"
-    end
   end
 
   # Fix bug #46723: retina scaling of buttons
